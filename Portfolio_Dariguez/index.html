@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edrian Paul's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+  <!-- Intro Section -->
+  <section id="home" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Image Column -->
+        <div class="col-md-4 col-sm-12 text-center">
+          <img src="UserImage.jpg" alt="User Image" class="img-fluid rounded-circle">
+        </div>
+        <!-- Text Column -->
+        <div class="col-md-8 col-sm-12">
+          <div class="text-content">
+            <h1>Edrian Paul A. Dariguez</h1>
+            <p class="lead">I'm a passionate Ku-foul developer that loves horsing around.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container text-center">
+      <h2>About Me</h2>
+      <p class="mt-3">Hi, I'm a graphic designer with many knowledge to memes, below are just the ones I like.</p>
+      <img src="Gojo vs Sukuna.jpg" style="height: auto; width: 50%;">
+      <img src="Boss.jpg">
+      <img src="omsim.png" style="height: auto; width: 60%;">
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">Projects</h2>
+      <div class="row mt-4">
+        <div class="col-md-4 col-sm-12 mb-4">
+          <div class="card">
+            <img src="Emman.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Project: Emman D. Sadboi</h5>
+              <p class="card-text">An experienced TED Talk(er) about the life of sad men that most people call, sadboi.</p>
+              <a href="#" class="btn btn-primary view-more">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 mb-4">
+          <div class="card">
+            <img src="Edriana.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Project: Edriana Pauline Batumbakal</h5>
+              <p class="card-text">The girl behind it all, everything you know, everything you see, she did it all, the "IT Girl" of TIP Manila.</p>
+              <a href="#" class="btn btn-primary view-more">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 mb-4">
+          <div class="card">
+            <img src="Eric.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Project: Edwin Fac B. Oydahw</h5>
+              <p class="card-text">Celebrity, Actor, and CEO, respected by many and down to earth, join hands and invest for the future.</p>
+              <a href="#" class="btn btn-primary view-more">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Contact Me</h2>
+      <form class="row g-3 mt-4">
+        <div class="col-md-6 col-sm-12">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Your Email">
+        </div>
+        <div class="col-12">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>Connect with me:</p>
+      <a href="#" class="text-white me-3">Facebook</a>
+      <a href="#" class="text-white">Omsim</a>
+      <p class="mt-2">&copy; 2024 My Portfolio. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.view-more').forEach(button => {
+      button.addEventListener('click', function(event) {
+        event.preventDefault();
+        alert('nothing.... haha');
+      });
+    });
+  </script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

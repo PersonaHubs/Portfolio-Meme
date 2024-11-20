@@ -1,0 +1,39 @@
+/* General Section Styling */
+section {
+    padding: 3rem 0;
+  }
+  
+  #home .text-content {
+    margin-left: 2rem; /* Ensures the text stays away from the image */
+  }
+  
+  @media (max-width: 768px) {
+    #home .text-content {
+      margin-left: 0; /* Stacks text and image neatly on small screens */
+    }
+  }
+  
+  /* Card Customizations */
+  .card-title {
+    font-weight: bold;
+  }
+  
+ /* Navbar */
+.navbar {
+  background-color: #343a40; /* Dark theme matching Bootstrap */
+}
+
+/* Footer */
+footer {
+  background-color: #343a40; /* Matches navbar */
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
